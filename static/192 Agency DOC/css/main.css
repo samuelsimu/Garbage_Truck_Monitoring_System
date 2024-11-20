@@ -1,5 +1,5 @@
 body{
-	background-color:#FFF;
+	background-color:#e3eed4;
     font-family: "Lato", sans-serif;
     font-weight: 300;
 	font-size:16px;
@@ -21,7 +21,7 @@ a, a:hover, a:focus{
 }
 h1, h2, h3,
 h4, h5, h6 {
-    color: #333;
+    color: #645959;
 	margin:0;
     font-weight: normal;
 }
@@ -102,7 +102,7 @@ section p {
 
 
 .left-sidebar {
-    background-color: #00d089;
+    background-color: #0f2a1d;
     float: left;
     min-height: 100%;
     position: fixed;
@@ -115,19 +115,23 @@ section p {
     padding-top: 70px;
 }
 .logo h1{
-    color: #fff;
+    color: #dacccc;
     font-weight: 700;
     text-transform: uppercase;
 }
 .left-nav ul {
-    margin: 0;
-    padding: 0;
+    width: 200;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 10px;
     font-size: 14px;
+    font-family: arial;
 }
 
 .left-nav ul li a {
     color: #fff;
     display: block;
+    font-family: arial;
     padding: 10px 35px;
     -webkit-transition: all 0.3s ease-in 0s;
        -moz-transition: all 0.3s ease-in 0s;
@@ -137,8 +141,9 @@ section p {
 }
 
 .left-nav ul li a:hover, .left-nav ul li .current {
-    background-color: #fff;
+    background-color: #1f583d;
     color: #000;
+    border-radius: 19vb;
 }
 
 
